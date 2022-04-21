@@ -11,6 +11,9 @@
     <!-- Bootstrap Icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" />
 
+    <!-- AOS-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <!-- My CSS-->
     <link rel="stylesheet" href="style.css" />
 
@@ -46,7 +49,7 @@
 
     <!-- Jumbotron-->
     <section class="jumbotron text-center">
-      <img src="img/hadyan.jpg" alt="Hadyan Abdul Aziz" width="200" class="rounded-circle img-thumbnail" />
+      <img src="img/hadyan.jpg" alt="Hadyan Abdul Aziz" width="200" class="rounded-circle img-thumbnail" data-aos="fade-in" />
       <h1 class="display-4">Hadyan Abdul Aziz</h1>
       <p class="lead">Mahasiswa | STT Terpadu Nurul Fikri</p>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
@@ -61,7 +64,7 @@
 
     <!-- About -->
     <section id="about">
-      <div class="container">
+      <div class="container" data-aos="fade-up">
         <div class="row text-center mb-3">
           <div class="col">
             <h2>About Me</h2>
@@ -69,10 +72,10 @@
         </div>
         <div class="row justify-content-center fs-5 text-center">
           <div class="col-md-4">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus, at? Placeat laboriosam consectetur architecto sed. Saepe vel at deleniti tempore?</p>
+            <p>Saya adalah seorang mahasiswa tingkat akhir jurusan Sistem Informasi yang berkuliah di Sekolah Tinggi Teknologi Terpadu <a href="https://nurulfikri.ac.id/" target="_blank">Nurul Fikri</a>.</p>
           </div>
           <div class="col-md-4">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa iusto ipsa placeat molestias nesciunt ipsum voluptate, dolorum sit laborum non, temporibus obcaecati similique deleniti laboriosam?</p>
+            <p>Aktivitas saat ini adalah menjadi asisten dosen mata kuliah basis data. Untuk profile lebih lanjut bisa cek di <a href="https://www.linkedin.com/in/hadyanaa/" target="_blank">Linkedin</a> saya.</p>
           </div>
         </div>
       </div>
@@ -97,41 +100,53 @@
         <div class="row justify-content-center">
           <div class="col-md-4 mb-3">
             <div class="card">
-              <img src="img/projects/1.jpg" class="card-img-top" alt="Project 1" />
+              <a href="https://gitlab.com/hadyanaa/final-project" target="_blank"> <img src="img/projects/io.png" class="card-img-top" alt="Project 1" /></a>
               <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <h5 class="card-text">Laravel Development</h5>
+                <p class="card-text">Menyelesaikan project berbasis laravel yang bertemakan forum tanya jawab. Untuk code nya dapat dilihat di gitlab.</p>
               </div>
             </div>
           </div>
           <div class="col-md-4 mb-3">
             <div class="card">
-              <img src="img/projects/2.jpg" class="card-img-top" alt="Project 2" />
+              <a href="https://github.com/hadyanaa/portfolio" target="_blank"> <img src="img/projects/wp.png" class="card-img-top" alt="Project 2" /></a>
               <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <h5>Website Portfolio</h5>
+                <p class="card-text">Telah menyelesaikan website portfolio berbasis Bootstrap 5. Untuk source code dapat dilihat di github.</p>
               </div>
             </div>
           </div>
           <div class="col-md-4 mb-3">
             <div class="card">
-              <img src="img/projects/3.jpg" class="card-img-top" alt="Project 3" />
+              <a
+                href="https://www.figma.com/proto/FrJjg3Kz4fX7rowxJeHklA/Hadyan-Abdul-Aziz---Prototype-Edinsha-(Asuransi-Syariah)?page-id=0%3A1&node-id=120%3A0&viewport=241%2C48%2C0.09&scaling=scale-down&starting-point-node-id=120%3A0"
+                target="_blank"
+              >
+                <img src="img/projects/ps.png" class="card-img-top" alt="Project 3"
+              /></a>
               <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <h5>Prototype Aplikasi</h5>
+                <p class="card-text">Telah menyelesaikan Prototype aplikasi asuransi syariah bernama Edinsha. Dikerjakan sendiri untuk memenuhi kebutuhan project akhir dari mata kuliah UI/UX.</p>
               </div>
             </div>
           </div>
           <div class="col-md-4 mb-3">
             <div class="card">
-              <img src="img/projects/4.jpg" class="card-img-top" alt="Project 4" />
+              <a href="https://www.figma.com/file/we5dxlnrVcX5RWGmq15Vgf/Proposal-UX-Design?node-id=0%3A1" target="_blank"> <img src="img/projects/ux.png" class="card-img-top" alt="Project 4" /></a>
               <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <h5>UX Designer</h5>
+                <p class="card-text">Mengikuti lomba UX Design dan mendapatkan juara 2 dalam lomba UX Design GASIN STTNF</p>
               </div>
             </div>
           </div>
           <div class="col-md-4 mb-3">
             <div class="card">
-              <img src="img/projects/1.jpg" class="card-img-top" alt="Project 5" />
+              <a href="https://docs.google.com/presentation/d/1H3-V8cU-NArk2imxmfywnMvPFhxvOwBK/edit?usp=sharing&ouid=112347167096783544124&rtpof=true&sd=true" target="_blank">
+                <img src="img/projects/pm.png" class="card-img-top" alt="Project 5"
+              /></a>
               <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <h5>Project Management</h5>
+                <p class="card-text">Membuat dokumen manajemen proyek dengan judul Perancangan Peminjaman Ruangan Kampus dan Zoom STT NF Berbasis Web.</p>
               </div>
             </div>
           </div>
@@ -200,6 +215,11 @@
     <!-- Akhir Footer -->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <!-- JS AOS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 
     <!-- <form name="submit-to-google-sheet">
       <input name="email" type="email" placeholder="Email" required />
