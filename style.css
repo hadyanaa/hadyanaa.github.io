@@ -10,3 +10,11 @@
 section {
   padding-top: 5rem;
 }
+
+.card-img, .card-img-top-project {
+  height: 150px;
+}
+
+.card-body-project {
+  height: 175px;
+}
