@@ -52,6 +52,9 @@ section {
 
 .card-img, .card-img-top-project {
   height: 150px;
+}
+
+.card-img-top{
   border-radius: 17px 17px 0px 0px;
 }
 
